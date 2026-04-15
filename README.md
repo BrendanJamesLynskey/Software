@@ -1,6 +1,6 @@
 # Software
 
-Software engineering and web development repositories — presentations, playgrounds, and reference projects.
+Software engineering, web development, and computer science repositories — presentations, playgrounds, and reference projects.
 
 ---
 
@@ -45,6 +45,40 @@ Software engineering and web development repositories — presentations, playgro
 | [Introduction to TypeScript](https://brendanjameslynskey.github.io/Introduction_to_TypeScript/) ([md](https://github.com/BrendanJamesLynskey/Introduction_to_TypeScript/blob/master/presentation.md)) | Interactive presentation on TypeScript — type system, generics, interfaces, advanced types, Node.js and Express integration, React typing, compiler configuration, and migration strategies |
 | [Introduction to Node.js & Databases](https://brendanjameslynskey.github.io/Introduction_to_Node_Databases/) ([md](https://github.com/BrendanJamesLynskey/Introduction_to_Node_Databases/blob/master/presentation.md)) | Interactive presentation on Node.js database integration — raw SQL drivers, Knex, Prisma, Sequelize, Mongoose, migrations, transactions, connection pooling, performance, and testing |
 | [Introduction to GraphQL](https://brendanjameslynskey.github.io/Introduction_to_GraphQL/) ([md](https://github.com/BrendanJamesLynskey/Introduction_to_GraphQL/blob/master/presentation.md)) | Interactive presentation on GraphQL — schema definition, queries, mutations, subscriptions, resolvers, Apollo Server and Client, DataLoader, authentication, pagination, and performance |
+
+## Algorithms
+
+| Project | Description |
+| --- | --- |
+| [Sorting Algorithms](https://brendanjameslynskey.github.io/Sorting_Algorithms/) ([md](https://github.com/BrendanJamesLynskey/Sorting_Algorithms/blob/main/presentation.md)) | Interactive presentation on sorting algorithms — bubble, merge, quick, heap, radix, counting, stability, complexity analysis, and real-world implementations |
+| [Graph Algorithms](https://brendanjameslynskey.github.io/Graph_Algorithms/) ([md](https://github.com/BrendanJamesLynskey/Graph_Algorithms/blob/main/presentation.md)) | Interactive presentation on graph algorithms — BFS, DFS, topological sort, connected components, cycle detection, and graph coloring |
+| [Dynamic Programming](https://brendanjameslynskey.github.io/Dynamic_Programming/) ([md](https://github.com/BrendanJamesLynskey/Dynamic_Programming/blob/main/presentation.md)) | Interactive presentation on dynamic programming — optimal substructure, memoization, tabulation, knapsack, edit distance, and state transitions |
+| [Greedy Algorithms](https://brendanjameslynskey.github.io/Greedy_Algorithms/) ([md](https://github.com/BrendanJamesLynskey/Greedy_Algorithms/blob/main/presentation.md)) | Interactive presentation on greedy algorithms — greedy choice property, activity selection, Huffman coding, fractional knapsack, and exchange arguments |
+| [Divide and Conquer](https://brendanjameslynskey.github.io/Divide_and_Conquer/) ([md](https://github.com/BrendanJamesLynskey/Divide_and_Conquer/blob/main/presentation.md)) | Interactive presentation on divide and conquer — Master theorem, merge sort, quick sort, Strassen's algorithm, closest pair, and FFT |
+| [Backtracking Algorithms](https://brendanjameslynskey.github.io/Backtracking_Algorithms/) ([md](https://github.com/BrendanJamesLynskey/Backtracking_Algorithms/blob/main/presentation.md)) | Interactive presentation on backtracking — state space trees, N-Queens, Sudoku, constraint satisfaction, pruning, and branch and bound |
+| [String Matching Algorithms](https://brendanjameslynskey.github.io/String_Matching_Algorithms/) ([md](https://github.com/BrendanJamesLynskey/String_Matching_Algorithms/blob/main/presentation.md)) | Interactive presentation on string matching — KMP, Rabin-Karp, Boyer-Moore, suffix arrays, Aho-Corasick, and pattern matching |
+| [Shortest Path Algorithms](https://brendanjameslynskey.github.io/Shortest_Path_Algorithms/) ([md](https://github.com/BrendanJamesLynskey/Shortest_Path_Algorithms/blob/main/presentation.md)) | Interactive presentation on shortest path algorithms — Dijkstra, Bellman-Ford, Floyd-Warshall, A* search, negative cycles, and routing |
+| [Minimum Spanning Trees](https://brendanjameslynskey.github.io/Minimum_Spanning_Trees/) ([md](https://github.com/BrendanJamesLynskey/Minimum_Spanning_Trees/blob/main/presentation.md)) | Interactive presentation on minimum spanning trees — Kruskal's, Prim's, Borůvka's, cut property, Union-Find, and network design |
+| [Network Flow Algorithms](https://brendanjameslynskey.github.io/Network_Flow_Algorithms/) ([md](https://github.com/BrendanJamesLynskey/Network_Flow_Algorithms/blob/main/presentation.md)) | Interactive presentation on network flow — max-flow min-cut, Ford-Fulkerson, Edmonds-Karp, Dinic's, bipartite matching, and cost flow |
+| [Computational Complexity](https://brendanjameslynskey.github.io/Computational_Complexity/) ([md](https://github.com/BrendanJamesLynskey/Computational_Complexity/blob/main/presentation.md)) | Interactive presentation on computational complexity — Big-O, P vs NP, NP-completeness, reductions, approximation, and amortised analysis |
+| [Hashing Algorithms](https://brendanjameslynskey.github.io/Hashing_Algorithms/) ([md](https://github.com/BrendanJamesLynskey/Hashing_Algorithms/blob/main/presentation.md)) | Interactive presentation on hashing algorithms — hash functions, collision resolution, open addressing, consistent hashing, cryptographic hashes, and perfect hashing |
+
+## Data Structures
+
+| Project | Description |
+| --- | --- |
+| [Arrays and Linked Lists](https://brendanjameslynskey.github.io/Arrays_and_Linked_Lists/) ([md](https://github.com/BrendanJamesLynskey/Arrays_and_Linked_Lists/blob/main/presentation.md)) | Interactive presentation on arrays and linked lists — contiguous memory, dynamic arrays, singly linked, doubly linked, skip lists, and cache performance |
+| [Stacks and Queues](https://brendanjameslynskey.github.io/Stacks_and_Queues/) ([md](https://github.com/BrendanJamesLynskey/Stacks_and_Queues/blob/main/presentation.md)) | Interactive presentation on stacks and queues — LIFO, FIFO, priority queues, monotonic structures, deque, and expression evaluation |
+| [Binary Trees](https://brendanjameslynskey.github.io/Binary_Trees/) ([md](https://github.com/BrendanJamesLynskey/Binary_Trees/blob/main/presentation.md)) | Interactive presentation on binary trees — traversals, tree properties, LCA, Morris traversal, expression trees, and serialisation |
+| [Binary Search Trees](https://brendanjameslynskey.github.io/Binary_Search_Trees/) ([md](https://github.com/BrendanJamesLynskey/Binary_Search_Trees/blob/main/presentation.md)) | Interactive presentation on binary search trees — BST invariant, search and insertion, balancing, treaps, splay trees, and order statistics |
+| [Heaps and Priority Queues](https://brendanjameslynskey.github.io/Heaps_and_Priority_Queues/) ([md](https://github.com/BrendanJamesLynskey/Heaps_and_Priority_Queues/blob/main/presentation.md)) | Interactive presentation on heaps — binary heaps, heap sort, Fibonacci heaps, build-heap, decrease-key, and priority queue ADT |
+| [Hash Tables](https://brendanjameslynskey.github.io/Hash_Tables/) ([md](https://github.com/BrendanJamesLynskey/Hash_Tables/blob/main/presentation.md)) | Interactive presentation on hash tables — hash functions, collision resolution, open addressing, cuckoo hashing, load factor, and concurrent maps |
+| [Graph Data Structures](https://brendanjameslynskey.github.io/Graph_Data_Structures/) ([md](https://github.com/BrendanJamesLynskey/Graph_Data_Structures/blob/main/presentation.md)) | Interactive presentation on graph data structures — adjacency matrix, adjacency list, CSR format, DAGs, property graphs, and graph libraries |
+| [Tries](https://brendanjameslynskey.github.io/Tries/) ([md](https://github.com/BrendanJamesLynskey/Tries/blob/main/presentation.md)) | Interactive presentation on tries — prefix trees, radix trees, suffix trees, autocomplete, Patricia tries, and IP routing |
+| [Balanced Trees](https://brendanjameslynskey.github.io/Balanced_Trees/) ([md](https://github.com/BrendanJamesLynskey/Balanced_Trees/blob/main/presentation.md)) | Interactive presentation on balanced trees — AVL trees, Red-Black trees, rotations, 2-3 trees, balance factor, and persistent trees |
+| [B-Trees](https://brendanjameslynskey.github.io/B_Trees/) ([md](https://github.com/BrendanJamesLynskey/B_Trees/blob/main/presentation.md)) | Interactive presentation on B-trees — B-tree operations, B+ trees, disk I/O, database indexes, node splitting, and LSM comparison |
+| [Disjoint Sets (Union-Find)](https://brendanjameslynskey.github.io/Disjoint_Sets_Union_Find/) ([md](https://github.com/BrendanJamesLynskey/Disjoint_Sets_Union_Find/blob/main/presentation.md)) | Interactive presentation on disjoint sets — union by rank, path compression, inverse Ackermann, Kruskal's MST, and connected components |
+| [Bloom Filters & Probabilistic DS](https://brendanjameslynskey.github.io/Bloom_Filters_and_Probabilistic_DS/) ([md](https://github.com/BrendanJamesLynskey/Bloom_Filters_and_Probabilistic_DS/blob/main/presentation.md)) | Interactive presentation on probabilistic data structures — Bloom filters, HyperLogLog, Count-Min Sketch, cuckoo filters, and cardinality estimation |
 
 ## Docker
 
