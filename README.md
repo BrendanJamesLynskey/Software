@@ -95,4 +95,11 @@ Software engineering, web development, and computer science repositories — pre
 | [Docker Troubleshooting](https://brendanjameslynskey.github.io/Docker_Troubleshooting/) ([md](https://github.com/BrendanJamesLynskey/Docker_Troubleshooting/blob/main/presentation.md)) | Interactive presentation on Docker troubleshooting — exit codes, logs, exec debugging, inspect, networking issues, volume permissions, and debugging tools |
 | [Docker for LLMs, Agents & MCP](https://brendanjameslynskey.github.io/Docker_for_LLMs_and_Agents/) ([md](https://github.com/BrendanJamesLynskey/Docker_for_LLMs_and_Agents/blob/main/presentation.md)) | Interactive presentation on Docker for AI — Ollama, vLLM, GPU passthrough, LangChain/CrewAI agents, MCP servers, MCP gateways, and production inference patterns |
 
+## Python Tooling
+
+| Project | Description |
+| --- | --- |
+| [Introduction to uv](https://brendanjameslynskey.github.io/Introduction_to_uv/) ([md](https://github.com/BrendanJamesLynskey/Introduction_to_uv/blob/main/presentation.md)) | Interactive presentation on **uv** — Astral's Rust-based all-in-one Python package & project manager. Installation, `uv pip` drop-in, projects & `uv.lock`, `uv sync` & `uv run`, Python version management, PEP 723 inline scripts, `uvx` tools, workspaces, build & publish, performance internals, migration from pip-tools and Poetry, CI patterns |
+| [uv in Practice](https://brendanjameslynskey.github.io/uv_in_Practice/) ([md](https://github.com/BrendanJamesLynskey/uv_in_Practice/blob/main/presentation.md)) | Companion deck of production recipes for uv — Dockerfile patterns, multi-stage distroless images, BuildKit cache mounts, GitHub Actions / GitLab CI / Jenkins / Buildkite, pre-commit hooks, monorepo workspaces, private indexes, reproducibility & SBOM, PEP 723 scripts at scale, PyTorch + CUDA wheel selection, conda/mamba interop, Poetry → uv migration playbook, troubleshooting |
+
 ---
