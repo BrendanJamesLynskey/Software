@@ -20,6 +20,8 @@ Software engineering, web development, and computer science repositories — pre
 | [Introduction to GitHub](https://brendanjameslynskey.github.io/Introduction_to_GitHub/) ([md](https://github.com/BrendanJamesLynskey/Introduction_to_GitHub/blob/main/presentation.md)) | Interactive presentation on GitHub — repositories, pull requests, Actions, GitHub CLI, security features, Copilot, GitLab comparison, and alternative platforms |
 | [MCP Gateway Playground](https://github.com/BrendanJamesLynskey/MCP_Gateway_Playground) | Docker MCP Gateway demo — custom MCP servers for tools, resources, and prompts behind a gateway, with a web-based client UI |
 | [MCP Supergateway Playground](https://github.com/BrendanJamesLynskey/MCP_Supergateway_Playground) | MCP playground using supergateway — three MCP servers with SSE bridge, web UI, and CLI control for Claude Code mobile |
+| [Introduction to OAuth](https://brendanjameslynskey.github.io/Introduction_to_OAuth/) ([md](https://github.com/BrendanJamesLynskey/Introduction_to_OAuth/blob/main/presentation.md)) | Interactive presentation on OAuth — purpose, history, OAuth 1.0a → 2.0 → 2.1, all grant types, PKCE, OpenID Connect, JWTs, DPoP/mTLS, BCP 240 attacks & defences, library and flow selection |
+| [OAuth for MCP Servers](https://brendanjameslynskey.github.io/OAuth_for_MCP/) ([md](https://github.com/BrendanJamesLynskey/OAuth_for_MCP/blob/main/presentation.md)) | Companion deck on OAuth for the Model Context Protocol — the 2025 MCP authorisation profile, Resource Indicators, DPoP, the Docker MCP Gateway as an OAuth broker, and a full tour of commercial (Auth0, Entra, Stytch, WorkOS, Clerk, Cognito) and open-source (Keycloak, ZITADEL, Authentik, Ory Hydra, Authelia, Logto) providers |
 
 ## Web Development
 
