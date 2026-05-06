@@ -23,7 +23,7 @@ Software engineering, web development, and computer science repositories — pre
 
 ## Identity & Access
 
-An eight-deck consolidated treatment of identity and access — covering the full pipeline of authentication (who is the user?), federation (how do they prove that to other systems?), delegated authorisation (what may an app do on their behalf?), and authorisation models (what may they actually do?). The set is sequenced pedagogically: start with whichever deck matches what's new to you and skim the rest as reference.
+A seven-deck treatment of identity and access — *who is the user*, and *how do they prove that to other systems*? Authentication primitives plus the federation stacks (OAuth, OIDC, SAML/SCIM) that propagate identity. The companion **Authorisation** section below covers the *what may they do* half.
 
 ### Pedagogical reading order
 
@@ -34,7 +34,6 @@ An eight-deck consolidated treatment of identity and access — covering the ful
 5. **Introduction to OpenID Connect** — identity tokens on top of OAuth.
 6. **Advanced OpenID Connect** — FAPI 2.0, Federation 1.0, the EUDI wallet stack.
 7. **SAML 2.0 & SCIM** — the parallel enterprise federation stack.
-8. **Authorization Models** — what to do *after* authentication, with policy.
 
 | Project | Description |
 | --- | --- |
@@ -45,7 +44,22 @@ An eight-deck consolidated treatment of identity and access — covering the ful
 | [Introduction to OpenID Connect](https://brendanjameslynskey.github.io/Introduction_to_OpenID_Connect/) ([repo](https://github.com/BrendanJamesLynskey/Introduction_to_OpenID_Connect)) | OIDC foundations — OIDC = OAuth + ID token, JWT validation, discovery, JWKS rotation, UserInfo, response types, RP-initiated / back-channel logout, CIBA, SIOPv2 &amp; Verifiable Credentials, OpenID Federation 1.0 (Sep 2024), FAPI 2.0, real-world OP quirks (Google / Entra / Apple / Okta / Keycloak / ZITADEL / Cognito), workload OIDC for CI/CD |
 | [Advanced OpenID Connect](https://brendanjameslynskey.github.io/Advanced_OpenID_Connect/) ([md](https://github.com/BrendanJamesLynskey/Advanced_OpenID_Connect/blob/main/presentation.md)) | The deep-end OIDC companion — validation edge cases (`aud` / `azp`, pairwise subjects, alg confusion), PAR / JAR / JARM, FAPI 2.0 Security Profile + Message Signing, mTLS / `private_key_jwt` / DPoP, three logout specs, Token Exchange (RFC 8693), OpenID Federation 1.0 trust chains, eIDAS 2.0 + EUDI Wallet, the SIOPv2 + OpenID4VCI + OpenID4VP wallet stack, ISO mDL (18013-5/-7), workload OIDC deep dive, MFA UX, observability, migration playbooks, and reference architectures by domain |
 | [SAML 2.0 & SCIM](https://brendanjameslynskey.github.io/SAML_and_SCIM/) ([md](https://github.com/BrendanJamesLynskey/SAML_and_SCIM/blob/main/presentation.md)) | The parallel enterprise stack — SAML history, roles, metadata exchange, SP/IdP-initiated SSO, bindings, assertion structure & validation, NameID formats, SAML attacks (XSW, XXE, replay) and defences, Single Logout (and why CAEP replaces it), SAML vs OIDC decision matrix, WS-Federation / Kerberos / LDAP-bind legacy, SCIM 2.0 protocol & resource model, JIT vs SCIM provisioning, group sync, IdP quirks (Entra / Okta / Workspace / Ping / OneLogin / ADFS), IdP brokers, B2B enterprise-readiness checklist |
+
+## Authorisation
+
+A three-deck treatment of *what may the user (or workload) do, and how do we enforce it?* — the decision-and-enforcement complement to Identity & Access. Conceptual foundations, then east-west service-to-service authz, then north-south edge-and-gateway authz.
+
+### Pedagogical reading order
+
+1. **Authorization Models** — the conceptual foundations (RBAC / ABAC / ReBAC, Policy-as-Code).
+2. **Workload Identity & Service-Mesh AuthZ** — east-west service-to-service.
+3. **Edge & Gateway AuthZ** — north-south, before the request reaches your code.
+
+| Project | Description |
+| --- | --- |
 | [Authorization Models](https://brendanjameslynskey.github.io/Authorization_Models/) ([md](https://github.com/BrendanJamesLynskey/Authorization_Models/blob/main/presentation.md)) | The decision layer — PEP/PDP/PAP/PIP architecture, the DAC → MAC → RBAC → ABAC → ReBAC arc, role-explosion in RBAC, XACML lineage and modern Cedar for ABAC, Google Zanzibar and the relationship-tuple model with OpenFGA / SpiceDB. Policy-as-Code engines compared (OPA / Rego, Cedar, OpenFGA, SpiceDB, Casbin). Deployment topologies, performance & caching, audit & explainability, the AuthN-to-AuthZ mapping, decision matrix, migration patterns, reference architectures by domain, production gotchas |
+| [Workload Identity & Service-Mesh AuthZ](https://brendanjameslynskey.github.io/Workload_Identity_AuthZ/) ([md](https://github.com/BrendanJamesLynskey/Workload_Identity_AuthZ/blob/main/presentation.md)) | East-west authorisation — the workload-identity problem; SPIFFE & SPIRE in depth (SVIDs, attestation, federation/trust bundles); service-mesh AuthZ across Istio AuthorizationPolicy / Linkerd / Cilium L4-L7 + Tetragon; mTLS at scale (issuance, rotation, root rotation); cloud-native workload identity (IRSA / GCP WI / Azure WI / WIF); K8s ServiceAccountTokenVolumeProjection; service-mesh + JWT for end-user identity at L7; workload identity for AI agents & MCP servers; choosing a stack; migration; production gotchas |
+| [Edge & Gateway AuthZ](https://brendanjameslynskey.github.io/Edge_and_Gateway_AuthZ/) ([md](https://github.com/BrendanJamesLynskey/Edge_and_Gateway_AuthZ/blob/main/presentation.md)) | North-south authorisation — token validation at the edge (JWT vs introspection); Envoy `ext_authz`; AWS API Gateway authorizers; Cloudflare Access & Workers; Kong / Apigee / Tyk / Krakend; rate-limit-as-policy; mTLS termination + identity propagation; JWT downscoping & Token Exchange at the edge; WAF vs AuthZ boundary; GraphQL gateway patterns; webhook authorisation; the MCP Gateway as the AI-era edge authz pattern; multi-tenant edge; observability; anti-patterns; choosing a stack |
 
 ## Cloud Service Models (`*aaS`)
 
