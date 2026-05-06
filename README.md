@@ -21,9 +21,17 @@ Software engineering, web development, and computer science repositories — pre
 | [MCP Gateway Playground](https://github.com/BrendanJamesLynskey/MCP_Gateway_Playground) | Docker MCP Gateway demo — custom MCP servers for tools, resources, and prompts behind a gateway, with a web-based client UI |
 | [MCP Supergateway Playground](https://github.com/BrendanJamesLynskey/MCP_Supergateway_Playground) | MCP playground using supergateway — three MCP servers with SSE bridge, web UI, and CLI control for Claude Code mobile |
 
+## Identity & Authorisation — Start Here
+
+The series primer. Sixty years of *who are you?* and *what may you do?* on one map — history, threat landscape, standards lineage, and a reading roadmap to the eleven decks below. No code, no RFCs in the body. Read this first if the field is new (or if you've read pieces over the years and want them indexed).
+
+| Project | Description |
+| --- | --- |
+| [Identity & Authorisation — A Primer](https://brendanjameslynskey.github.io/Identity_and_Authorisation_Primer/) ([md](https://github.com/BrendanJamesLynskey/Identity_and_Authorisation_Primer/blob/main/presentation.md)) | The gateway deck — why these problems exist, the four eras (mainframe → web → mobile/cloud → agent &amp; wallet), the AuthN and AuthZ conceptual maps, north-south vs east-west, the standards landscape (IETF / OIDF / OASIS / W3C / FIDO / NIST / CNCF), the threat-class → defence table, build-vs-buy, the GDPR / PSD2 / eIDAS 2.0 / DORA / EU AI Act backdrop, and a reading roadmap to all eleven decks below |
+
 ## Identity & Access
 
-A seven-deck treatment of identity and access — *who is the user*, and *how do they prove that to other systems*? Authentication primitives plus the federation stacks (OAuth, OIDC, SAML/SCIM) that propagate identity. The companion **Authorisation** section below covers the *what may they do* half.
+A seven-deck treatment of identity and access — *who is the user*, and *how do they prove that to other systems*? Authentication primitives plus the federation stacks (OAuth, OIDC, SAML/SCIM) that propagate identity. The companion **Authorisation** section below covers the *what may they do* half. (Start with the **Primer** above if the field is new.)
 
 ### Pedagogical reading order
 
@@ -47,7 +55,7 @@ A seven-deck treatment of identity and access — *who is the user*, and *how do
 
 ## Authorisation
 
-A three-deck treatment of *what may the user (or workload) do, and how do we enforce it?* — the decision-and-enforcement complement to Identity & Access. Conceptual foundations, then east-west service-to-service authz, then north-south edge-and-gateway authz.
+A three-deck treatment of *what may the user (or workload) do, and how do we enforce it?* — the decision-and-enforcement complement to Identity & Access. Conceptual foundations, then east-west service-to-service authz, then north-south edge-and-gateway authz. (See the **Primer** at the top for how this section sits in the wider field.)
 
 ### Pedagogical reading order
 
