@@ -148,6 +148,12 @@ A six-deck consolidated treatment of cloud service models — IaaS / PaaS / SaaS
 | [Disjoint Sets (Union-Find)](https://brendanjameslynskey.github.io/Disjoint_Sets_Union_Find/) ([md](https://github.com/BrendanJamesLynskey/Disjoint_Sets_Union_Find/blob/main/presentation.md)) | Interactive presentation on disjoint sets — union by rank, path compression, inverse Ackermann, Kruskal's MST, and connected components |
 | [Bloom Filters & Probabilistic DS](https://brendanjameslynskey.github.io/Bloom_Filters_and_Probabilistic_DS/) ([md](https://github.com/BrendanJamesLynskey/Bloom_Filters_and_Probabilistic_DS/blob/main/presentation.md)) | Interactive presentation on probabilistic data structures — Bloom filters, HyperLogLog, Count-Min Sketch, cuckoo filters, and cardinality estimation |
 
+## Coding Practice
+
+| Project | Description |
+| --- | --- |
+| [Coding Challenge Coach](https://github.com/BrendanJamesLynskey/Coding_Challenge_Coach) ([prompt](https://github.com/BrendanJamesLynskey/Coding_Challenge_Coach/blob/main/prompts/portable_examiner.md)) | LLM-examined coding-interview practice for rebuilding hand-coding skill — Claude Code slash commands (`/challenge`, `/hint`, `/grade`, `/solution`, `/progress`) set original DSA problems with reference-verified tests, then grade your solution against freshly written hidden tests (edge cases, randomised differential vs brute force, perf at constraint limits) and a 100-point rubric, without ever writing your code (examiner-mode CLAUDE.md + PreToolUse hook). Stdlib-only `coach.py` for spaced repetition and the test harness; 131 Python problems across 19 patterns linked to the Interview_* study notes; plus a portable two-turn prompt for claude.ai |
+
 ## Compilers
 
 A ten-deck consolidated series on **compiler construction** — how source text becomes running code. From the history of the field and the classic pipeline, through the front end (lexing, parsing, semantic analysis & type systems), the middle end (intermediate representations, SSA, optimisation), the back end (code generation), and runtimes (JITs, GC, WebAssembly), ending by building a small compiler end to end. Each deck is a self-contained Reveal.js presentation with hand-authored inline-SVG diagrams and copy-and-run code, plus a Markdown companion.
