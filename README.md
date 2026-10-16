@@ -1,3 +1,10 @@
+<!-- portfolio-strip:start (brief 40) -->
+<sub>**Brendan Lynskey** · [Portfolio home](https://brendanjameslynskey.github.io/) · [Interactive sites](https://brendanjameslynskey.github.io/#sites)</sub>
+<!-- portfolio-strip:end -->
+
+
+
+
 # Software
 
 Software engineering, web development, and computer science repositories — presentations, playgrounds, and reference projects.
