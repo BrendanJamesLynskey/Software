@@ -13,6 +13,8 @@ Software engineering, web development, and computer science repositories — pre
 
 ## Series in this index
 
+8 of the library's 64 series (a series is one hub page that lists its decks).
+
 | Series | What it covers |
 | --- | --- |
 | **[Identity &amp; Authorisation](https://brendanjameslynskey.github.io/SW_Hub_Identity_Authorisation/)** | A primer, seven decks on authentication and federation (OAuth, OIDC, SAML, SCIM) and three on authorisation, in reading order |
